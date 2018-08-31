@@ -199,8 +199,8 @@ a {
 .footer {
   position: relative; }
   .footer .subscribe {
-    background-color: #A8C13B;
-    color: #fff; }
+    background-color: #d8d8d8;
+    color: #C0ca91; }
     .footer .subscribe .subscribe-form {
       position: relative; }
       .footer .subscribe .subscribe-form .form-control {
@@ -273,13 +273,13 @@ a {
 .header .header-menu {
   position: absolute;
   top: 0;
-  background: #0F1527;
+  background: #5A9D8F;
   left: 0;
   right: 0;
   z-index: 9000; }
   .header .header-menu.header-menu-fixed {
     top: 0;
-    background: #0F1527; }
+    background: #6E7F93; }
 
 .section {
   padding: 50px 0; }
@@ -437,16 +437,17 @@ a {
                 transform: scale(1.04) translateY(-4px); }
   .home:before {
     content: '';
-    background-image: url(../../assets/img/school-1.jpg);
+    background-image: url(../../assets/img/desktop2.jpeg);
     background-attachment: fixed;
-    background-size: cover;
+     background-repeat: no-repeat;
+     background-size: cover;
     position: absolute;
     width: 100%;
     height: 600px;
     top: 0;
     left: 0;
     right: 0;
-    opacity: 0.5; }
+    }
 
 .about-us .upcoming-item {
   min-height: 150px;
@@ -2755,3 +2756,16 @@ a {
 .zoomOutUp {
   -webkit-animation-name: zoomOutUp;
   animation-name: zoomOutUp; }
+
+.virtual_template{
+  background-image:url("../images/datyra_border.png");
+   background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+   
+   
+}
+
+.transparent {
+  background:rgba(255,255,255,0.5);
+}
