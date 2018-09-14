@@ -296,7 +296,7 @@ a {
   position: relative;
   padding: 30px 0; }
   .vertical-slide-container .top-arrow, .vertical-slide-container .bottom-arrow {
-    position: absolute;
+    position: relative;
     left: 50%;
     margin-left: -15px; }
     .vertical-slide-container .top-arrow.slick-disabled, .vertical-slide-container .bottom-arrow.slick-disabled {
