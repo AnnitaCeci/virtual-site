@@ -54,12 +54,9 @@ body {
 a {
   color: #5A9D8F; }
   a:hover, a:focus, a:active {
-    color: #e26702;
+    color: #5a9d8f;
     text-decoration: underline solid #5A9D8F; }
 
-    p {
-      text-align: justify;
-    }
 
 .ft-bold {
   font-weight: bold; }
@@ -87,12 +84,12 @@ a {
   text-transform: uppercase;
   font-size: 12px; }
   .btn.btn-primary {
-    background-color: #5A9D8F; 
+    background-color: #5A9D8F;
     border-color: #5A9D8F;
     color: #fff; }
     .btn.btn-primary:hover, .btn.btn-primary:active {
-      background-color: #e26702 !important;
-      border-color: #e26702 !important;
+      background-color: #637CA2 !important;
+      border-color: #637CA2 !important;
       color: #fff !important; }
     .btn.btn-primary:focus {
       box-shadow: 0 0 0 0.2rem rgba(131, 76, 32, 0.5) !important;
@@ -113,8 +110,8 @@ a {
     border-color: #5A9D8F;
     color: #03070a; }
     .btn.btn-outline-primary:hover, .btn.btn-outline-primary:active {
-      background-color: #e26702 !important;
-      border-color: #e26702 !important;
+      background-color: #637CA2 !important;
+      border-color: #637CA2 !important;
       color: #fff !important; }
     .btn.btn-outline-primary:focus {
       box-shadow: 0 0 0 0.2rem rgba(131, 76, 32, 0.5) !important;
@@ -134,8 +131,8 @@ a {
     border-color: #5A9D8F;
     color: #fff; }
     .btn.btn-social:hover, .btn.btn-social:active {
-      background-color: #e26702 !important;
-      border-color: #e26702 !important;
+      background-color: #637CA2 !important;
+      border-color: #637CA2 !important;
       color: #fff !important; }
     .btn.btn-social:focus {
       box-shadow: 0 0 0 0.2rem rgba(131, 76, 32, 0.5) !important;
@@ -281,13 +278,14 @@ a {
 .header .header-menu {
   position: absolute;
   top: 0;
-  background: #5A9D8F;
+
+  background: #5a9d8f;
   left: 0;
   right: 0;
   z-index: 9000; }
   .header .header-menu.header-menu-fixed {
     top: 0;
-    background: #6E7F93; }
+    background: #5a9d8f; }
 
 .section {
   padding: 50px 0; }
@@ -445,7 +443,8 @@ a {
                 transform: scale(1.04) translateY(-4px); }
   .home:before {
     content: '';
-    background-image: url(../../assets/img/desktop2.jpeg);
+    background-image: url(../../assets/img/compu-4.jpg);
+
     background-attachment: fixed;
      background-repeat: no-repeat;
      background-size: cover;
