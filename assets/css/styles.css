@@ -47,11 +47,16 @@ body {
   background: #fff;
   color: #03070a; }
 
+body {
+  padding: 2rem 1rem;
+}
+
 a {
   color: #5A9D8F; }
   a:hover, a:focus, a:active {
     color: #5a9d8f;
     text-decoration: underline solid #5A9D8F; }
+
 
 .ft-bold {
   font-weight: bold; }
@@ -72,7 +77,7 @@ a {
 .modal {
   z-index: 10000050; }
 
-/* LAYOUT */
+/* LAYOUT  5A9D8F*/ 
 .btn {
   font-family: 'Raleway Regular';
   border-radius: 50px;
@@ -273,6 +278,7 @@ a {
 .header .header-menu {
   position: absolute;
   top: 0;
+
   background: #5a9d8f;
   left: 0;
   right: 0;
@@ -281,8 +287,6 @@ a {
     top: 0;
     background: #5a9d8f; }
 
-    
-
 .section {
   padding: 50px 0; }
 
@@ -290,7 +294,7 @@ a {
   position: relative;
   padding: 30px 0; }
   .vertical-slide-container .top-arrow, .vertical-slide-container .bottom-arrow {
-    position: absolute;
+    position: relative;
     left: 50%;
     margin-left: -15px; }
     .vertical-slide-container .top-arrow.slick-disabled, .vertical-slide-container .bottom-arrow.slick-disabled {
@@ -440,15 +444,17 @@ a {
   .home:before {
     content: '';
     background-image: url(../../assets/img/compu-4.jpg);
+
     background-attachment: fixed;
-    background-size: cover;
+     background-repeat: no-repeat;
+     background-size: cover;
     position: absolute;
     width: 100%;
     height: 600px;
     top: 0;
     left: 0;
     right: 0;
-    opacity: 0.5; }
+    }
 
 .about-us .upcoming-item {
   min-height: 150px;
@@ -2757,3 +2763,16 @@ a {
 .zoomOutUp {
   -webkit-animation-name: zoomOutUp;
   animation-name: zoomOutUp; }
+
+.virtual_template{
+  background-image:url("../images/datyra_border.png");
+   background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+   
+   
+}
+
+.transparent {
+  background:rgba(255,255,255,0.5);
+}
