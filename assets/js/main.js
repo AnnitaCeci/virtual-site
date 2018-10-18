@@ -172,5 +172,13 @@
   }
 
 }());
+//FOOTER AND NAV PLACEHOlDER//
+$(function(){
+  $("#nav-placeholder").load("assets/partial/nav-bar.html");
+});
+
+   $(function(){
+  $("#foot-placeholder").load("assets/partial/footer.html");
+});
 
     
