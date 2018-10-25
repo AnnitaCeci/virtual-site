@@ -16,7 +16,7 @@
   font-family: 'Raleway Thin';
   src: url("../fonts/raleway_thin-webfont.ttf");
   font-weight: normal;
-  font-style: normal; }
+  font-style: normal;  }
 
 @font-face {
   font-family: 'Raleway Bold';
@@ -443,7 +443,7 @@ a {
                 transform: scale(1.04) translateY(-4px); }
   .home:before {
     content: '';
-    background-image: url(../../assets/img/compu-4.jpg);
+    background-image: url(../../assets/img/entradaUni.jpg);
 
     background-attachment: fixed;
      background-repeat: no-repeat;

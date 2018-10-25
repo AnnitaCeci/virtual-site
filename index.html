@@ -6,7 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Favicon --> 
         <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/icon">
-
+        <!--JQUERY-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <!-- Bootstrap v4.0.0 -->
         <link href="assets/css/vendor/bootstrap/bootstrap.css" rel="stylesheet">
 
@@ -28,15 +29,9 @@
 	</head>
 	<body>
 		<!--========== HEADER ============-->
-		<header class="header">
-    <div class="header-menu container-fluid">
-        <nav class="navbar navbar-top-fixed navbar-light">
-            <a class="navbar-brand ft-bold" href="#">
-                <h3 class="h3-estilo">Universidad Tecnológica de la Mixteca</h3>
-            </a>
-        </nav> 
-    </div>
-</header>
+	 <div id="nav-placeholder">
+
+     </div>
 		<!--========== END HEADER ============-->
 
 		<!--========== HOME SECTION ============-->
@@ -55,10 +50,10 @@
                         <br><a class="nav-link" href="#about-us">¿QUIÉNES SOMOS?</a>
                     </li>
                     <li class="nav-item" data-scroll-nav="2">
-                        <br><a class="nav-link" href="#courses">CURSOS</a>
+                        <br><a class="nav-link" href="#courses">OFERTA ACADEMICA</a>
                     </li>
                     <li class="nav-item" data-scroll-nav="3">
-                        <br><a class="nav-link" href="#contact-us">CONTACTANOS</a>
+                        <br><a class="nav-link" href="#foot">CONTACTANOS</a>
                     </li>
                 </ul>
 
@@ -251,163 +246,50 @@
         <small>PRINCIPAL / CURSOS</small>
     </div>
 
-    <div class="courses-carrousel container py-5">
-        <div class="horizontal-slide-container">
-            <div class="courses-slide" id="slide-courses">
-                <div class="d-flex flex-column align-items-center">
-                    <div class="courses-item pb-3">
-                        <div class="item-img mr-2">
-                            <img src="assets/img/web-design.jpg" />
+   
+           <div class="row" > 
+                <div class="col-md-4 offset-2 ">
+                     <a href="licenciatura_estudios_mexicanos.html">
+                        <div class="d-flex flex-column align-items-center">
+                           
+                            <div class="courses-item pb-3">
+                                <div class="item-img mr-2 row">
+                                    <img src="assets/img/web-design.jpg"  class="img-fluid" style="max-height:30vw; "/>
+                                </div>
+                                <div class="d-flex flex-column align-items-center py-3">
+                                     
+                                Licenciatura en Estudios Mexicanos                         
+                                </div>
+                                </div>
+                           
                         </div>
-                        <div class="d-flex flex-column align-items-center py-3">
-                            <strong>Licenciatura en Estudios Mexicanos</strong>
-                            <span class="py-1 ft-secondary">UTM Virtual</span>
-                            <strong>$ 80,00</strong>
-                        </div>
-                    </div>
+                     </a>  
                 </div>
-                <div class="d-flex flex-column align-items-center">
-                    <div class="courses-item pb-3">
-                        <div class="item-img mr-2">
-                            <img src="assets/img/react.jpg" />
+                <div class="col-md-4" style="padding-left: 2vw; ">
+                     <a href="maestria_sistemas_distribuidos.html">
+                        <div class="d-flex flex-column align-items-center">
+                            <div class="courses-item pb-3">
+                                <div class="item-img mr-2 row">
+                                    <img src="assets/img/react.jpg" class="img-fluid" style="max-height:30vw; min-width: 32vw; " />
+                                </div>
+                                <div class="d-flex flex-column align-items-center py-3">
+                                    <strong>Maestria en Sistemas Distribuidos</strong>
+                                    <span class="py-1 ft-secondary">UTM Virtual</span>
+                                </div>
+                            </div>
                         </div>
-                        <div class="d-flex flex-column align-items-center py-3">
-                            <strong>Maestria en Sistemas Distribuidos</strong>
-                            <span class="py-1 ft-secondary">UTM Virtual</span>
-                            <strong>$ 80,00</strong>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                    </a>
+                 </div>
         </div>
-    </div>
+          
 </div>
 		<!--========== END COURSES SECTION ============-->
 
 		<!--========== FOOTER ============-->
-		<footer class="footer">
-    <div class="footer-container py-5">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-sm-12 col-md-3 py-3">
-                    <h5><strong>¡VISITANOS!</strong></h5>
-                    <small>Estaremos aquí para ayudarte.</small>
-                <div class="col-6 col-sm-4 col-md-3 d-flex align-items-center justify-content-center">
-                    <div class="contact-form-item d-flex p-2">
-                        <i class="fa fa-map-marker" aria-hidden="true"></i>
-                        <div class="d-flex flex-column justify-content-center pl-2">
-                            <span class="ft-medium">Get Appointment</span>
-                            <small>8:00 AM - 5:00 PM</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6 col-sm-4 col-md-3 d-flex align-items-center justify-content-center">
-                    <div class="contact-form-item d-flex p-2">
-                        <i class="fa fa-phone" aria-hidden="true"></i>
-                        <div class="d-flex flex-column justify-content-center pl-2">
-                            <span class="ft-medium">Contact Us</span>
-                            <small>(021) 99845-2512</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6 col-sm-4 col-md-3 d-flex align-items-center justify-content-center">
-                    <div class="contact-form-item d-flex p-2">
-                        <i class="fa fa-bandcamp" aria-hidden="true"></i>
-                        <div class="d-flex flex-column justify-content-center pl-2">
-                            <span class="ft-medium">Take a School Tour</span>
-                            <small>8:00 AM - 5:00 PM</small>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row footer-links pt-5">
-                <div class="col-xs-6 col-sm-6 col-md-3 d-flex flex-column">
-                    <h5><strong>Información Escolar y Teléfonos</strong></h5>
-                    <small><strong>Dirección</strong>: Carretera Huajuapan-Acatlima, km. 2.5, CP. 69000, Huajuapan de León, Oaxaca.</small>
-                    <small><strong>Teléfonos</strong>: (953) 5 32 02 14 y (953) 5 32 03 99</small>
-                    <small><strong>Extensión</strong>: 205</small>                   
 
-                    <div class="social-btns d-flex pt-4 pb-2">
-                        <a href="https://www.facebook.com/Universidad-Virtual-UTM-224214391089141/?fb_dtsg_ag=AdwLj-fdw0VylL2xuqkNWz32AP3qrOEeytznket_Izsyjg%3AAdzUcb_pb3xmKNg9CfbIqgWJWdLLSESVIfFsjjZ8G5VfRA" class="btn btn-social mr-1" target="_blank">
-                            <i class="fa fa-facebook" aria-hidden="true"></i>
-                        </a>
-                        <a href="#" class="btn btn-social mx-1">
-                        </a>                      
-                            <i class="fa fa-google-plus" aria-hidden="true"></i>
-                        </a>
-                        <a href="http://twitter.com/virtual_UTM" class="btn btn-social mx-1" target="_blank">                              
-                            <i class="fa fa-twitter" aria-hidden="true"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-xs-6 col-sm-6 col-md-3">
-                    <h5 class="mb-3">Conócenos</h5>
-                    <ul>
-                        <div class="row">
-                            <div class="col-6">
-                                <li>
-                                    <a href="#home">¿Qué es estudiar en línea?</a>
-                                </li>
-                                <li>
-                                    <a href="#features">Modelo educativo</a>
-                                </li>
-                                <li>
-                                    <a href="#screenshots">Requerimientos tecnológicos</a>
-                                </li>
-                                <li>
-                                    <a href="#testimonials">Pregunta e infórmate</a>s
-                                </li>
-                            </div>
-                        </div>
-                    </ul>
-                </div>
-                <div class="col-xs-6 col-sm-6 col-md-3">
-                    <h5 class="mb-3">Sitios de interes</h5>
-                    <ul>
-                        <li>
-                            <a href="#">Acceso</a>
-                        </li>
-                        <li>
-                            <a href="#">Universidad Tecnólogica de la Mixteca</a>
-                        </li>
-                        <li>
-                            <a href="#">SUNEO</a>
-                        </li>
-                        <li>
-                            <a href="#">Aviso de Privacidad</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-xs-6 col-sm-6 col-md-3">
-                    <h5 class="mb-3">Recent Courses</h5>
-                    <ul>
-                        <li class="d-flex">
-                            <div class="courses-img mr-2">
-                                <img src="assets/img/school-2.jpg" />
-                            </div>
-                            <small><a href="#">Java Developer 1</a></small>
-                        </li>
-                        <li class="d-flex">
-                            <div class="courses-img mr-2">
-                                <img src="assets/img/school-2.jpg" />
-                            </div>
-                            <small><a href="#">Java Developer 2</a></small>
-                        </li>
-                        <li class="d-flex">
-                            <div class="courses-img mr-2">
-                                <img src="assets/img/school-2.jpg" />
-                            </div>
-                            <small><a href="#">Web Design 3</a></small>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="footer-credits">
-        <small>© 2018 UTM</small>
-    </div>
-</footer>
+ <div class="section foot" data-scroll-index="3" id="foot-placeholder">
+
+ </div>
 
 		<!--========== END FOOTER ============-->
 
